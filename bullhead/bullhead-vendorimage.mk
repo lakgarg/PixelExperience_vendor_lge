@@ -478,3 +478,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	ims \
 	datastatusnotification
+
+# vendor/media
+PRODUCT_COPY_FILES += \
+	vendor/lge/bullhead/vendor/media/LMspeed_508.emd:vendor/media/LMspeed_508.emd \
+	vendor/lge/bullhead/vendor/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd
