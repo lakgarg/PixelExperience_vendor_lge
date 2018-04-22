@@ -379,6 +379,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/bullhead/vendor/lib64/egl/libGLESv2_adreno.so:vendor/lib64/egl/libGLESv2_adreno.so \
 	vendor/lge/bullhead/vendor/lib64/egl/libq3dtools_adreno.so:vendor/lib64/egl/libq3dtools_adreno.so \
 	vendor/lge/bullhead/vendor/lib64/egl/libq3dtools_esx.so:vendor/lib64/egl/libq3dtools_esx.so \
+	vendor/lge/bullhead/vendor/lib64/hw/activity_recognition.bullhead.so:vendor/lib64/hw/activity_recognition.bullhead.so \
 	vendor/lge/bullhead/vendor/lib64/hw/context_hub.default.so:vendor/lib64/hw/context_hub.default.so \
 	vendor/lge/bullhead/vendor/lib64/hw/fingerprint.bullhead.so:vendor/lib64/hw/fingerprint.bullhead.so \
 	vendor/lge/bullhead/vendor/lib64/hw/flp.default.so:vendor/lib64/hw/flp.default.so \
