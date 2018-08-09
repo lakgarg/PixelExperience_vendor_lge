@@ -16,7 +16,6 @@
 
 # vendor/bin
 PRODUCT_COPY_FILES += \
-	vendor/lge/bullhead/vendor/bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon \
 	vendor/lge/bullhead/vendor/bin/nanoapp_cmd:vendor/bin/nanoapp_cmd \
 	vendor/lge/bullhead/vendor/bin/qseecomd:vendor/bin/qseecomd \
 	vendor/lge/bullhead/vendor/bin/qti:vendor/bin/qti \
@@ -247,7 +246,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/bullhead/vendor/lib/libwms.so:vendor/lib/libwms.so \
 	vendor/lge/bullhead/vendor/lib/libxml.so:vendor/lib/libxml.so \
 	vendor/lge/bullhead/vendor/lib/hw/activity_recognition.bullhead.so:vendor/lib/hw/activity_recognition.bullhead.so \
-	vendor/lge/bullhead/vendor/lib/hw/context_hub.default.so:vendor/lib/hw/context_hub.default.so \
 	vendor/lge/bullhead/vendor/lib/hw/gatekeeper.msm8992.so:vendor/lib/hw/gatekeeper.msm8992.so \
 	vendor/lge/bullhead/vendor/lib/hw/keystore.msm8992.so:vendor/lib/hw/keystore.msm8992.so \
 	vendor/lge/bullhead/vendor/lib/hw/sensors.bullhead.so:vendor/lib/hw/sensors.bullhead.so \
@@ -380,7 +378,6 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/bullhead/vendor/lib64/egl/libq3dtools_adreno.so:vendor/lib64/egl/libq3dtools_adreno.so \
 	vendor/lge/bullhead/vendor/lib64/egl/libq3dtools_esx.so:vendor/lib64/egl/libq3dtools_esx.so \
 	vendor/lge/bullhead/vendor/lib64/hw/activity_recognition.bullhead.so:vendor/lib64/hw/activity_recognition.bullhead.so \
-	vendor/lge/bullhead/vendor/lib64/hw/context_hub.default.so:vendor/lib64/hw/context_hub.default.so \
 	vendor/lge/bullhead/vendor/lib64/hw/fingerprint.bullhead.so:vendor/lib64/hw/fingerprint.bullhead.so \
 	vendor/lge/bullhead/vendor/lib64/hw/flp.default.so:vendor/lib64/hw/flp.default.so \
 	vendor/lge/bullhead/vendor/lib64/hw/gatekeeper.msm8992.so:vendor/lib64/hw/gatekeeper.msm8992.so \

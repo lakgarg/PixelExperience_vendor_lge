@@ -278,7 +278,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 # datastatusnotification is a compatible vendor module
-ifeq ($(PRODUCT_USES_SOURCE_VENDOR_IMAGE),true)
+ifeq ($(TARGET_USES_SOURCE_VENDOR_IMAGE),true)
 LOCAL_VENDOR_MODULE := true
 endif
 LOCAL_DEX_PREOPT := false
@@ -293,14 +293,14 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 # ims is a compatible vendor module
-ifeq ($(PRODUCT_USES_SOURCE_VENDOR_IMAGE),true)
+ifeq ($(TARGET_USES_SOURCE_VENDOR_IMAGE),true)
 LOCAL_VENDOR_MODULE := true
 endif
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-ifeq ($(PRODUCT_USES_SOURCE_VENDOR_IMAGE),true)
+ifeq ($(TARGET_USES_SOURCE_VENDOR_IMAGE),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := VendorLinks
 LOCAL_MODULE_OWNER := lge
