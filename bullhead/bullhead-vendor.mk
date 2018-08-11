@@ -117,4 +117,5 @@ PRODUCT_COPY_FILES += \
 
 # Compatible vendor modules
 PRODUCT_PACKAGES += \
-    datastatusnotification
+    datastatusnotification \
+    ims
