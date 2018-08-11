@@ -101,7 +101,12 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.experimental2016 \
     qcrilhook \
     rcsimssettings \
-    rcsservice
+    rcsservice \
+    CarrierSetup \
+    CarrierServices \
+    Entitlement \
+    GCS
+
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -112,5 +117,4 @@ PRODUCT_COPY_FILES += \
 
 # Compatible vendor modules
 PRODUCT_PACKAGES += \
-    datastatusnotification \
-    ims
+    datastatusnotification
