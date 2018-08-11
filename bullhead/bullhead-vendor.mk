@@ -76,7 +76,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so
+    vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/lge/bullhead/proprietary/lib/hw/bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bluetooth.default.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bluetooth.default.so \
 
 PRODUCT_PACKAGES += \
     HiddenMenu \
