@@ -1,0 +1,11 @@
+lib/keystore.default.so
+lib/libnl.so
+lib/libskia.so
+lib/libsoftkeymaster.so
+lib/libstagefright_wfd.so
+lib64/hw/keystore.default.so
+lib64/libLLVM.so
+lib64/libbatteryservice.so
+lib64/libskia.so
+lib64/libsoftkeymaster.so
+lib64/libstagefright_flacdec.so
