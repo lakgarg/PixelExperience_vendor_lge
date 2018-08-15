@@ -121,3 +121,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     datastatusnotification \
     ims
+
+# Links
+PRODUCT_PACKAGES += \
+    AudioLinks
