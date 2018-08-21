@@ -130,11 +130,9 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/bullhead/proprietary/lib/keystore.default.so:system/lib/hw/keystore.default.so \
 	vendor/lge/bullhead/proprietary/lib/libnl.so:system/lib/libnl.so \
 	vendor/lge/bullhead/proprietary/lib/libskia.so:system/lib/libskia.so \
-	vendor/lge/bullhead/proprietary/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
 	vendor/lge/bullhead/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
 	vendor/lge/bullhead/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
 	vendor/lge/bullhead/proprietary/lib64/libLLVM.so:system/lib64/libLLVM.so \
 	vendor/lge/bullhead/proprietary/lib64/libbatteryservice.so:system/lib64/libbatteryservice.so \
 	vendor/lge/bullhead/proprietary/lib64/libskia.so:system/lib64/libskia.so \
-	vendor/lge/bullhead/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
 	vendor/lge/bullhead/proprietary/lib64/libstagefright_flacdec.so:system/lib64/libstagefright_flacdec.so
